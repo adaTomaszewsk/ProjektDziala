@@ -1,0 +1,80 @@
+<!--<div class="row" [hidden]="submitted">-->
+<!--  <div class="col-md-6 offset-md-3 mt-5">-->
+<!--    <div id="panel">-->
+<!--      <h1>Registration</h1>-->
+<!--      <form #authForm="ngForm" (ngSubmit)="onSubmit(authForm)">-->
+<!--        <div class="form-group">-->
+<!--          <input-->
+<!--            type="text"-->
+<!--            id="name" class="form-control"-->
+<!--            ngModel-->
+<!--            name="name"-->
+<!--            required-->
+<!--            [(ngModel)]="customer.name"-->
+
+<!--            placeholder="Name"-->
+<!--          />-->
+<!--        </div>-->
+<!--        <div class="form-group">-->
+<!--          <input-->
+<!--            type="text"-->
+<!--            id="surname"-->
+<!--            class="form-control"-->
+<!--            ngModel-->
+<!--            name="surname"-->
+<!--            required-->
+<!--            [(ngModel)]="customer.surname"-->
+
+<!--            placeholder="Surname"-->
+<!--          />-->
+<!--        </div>-->
+<!--        <div class="form-group">-->
+<!--          <input-->
+<!--            type="email"-->
+<!--            id="email" class="form-control"-->
+<!--            ngModel-->
+<!--            name="email"-->
+<!--            required-->
+<!--            [(ngModel)]="customer.email"-->
+<!--            placeholder="Email"-->
+<!--          />-->
+<!--        </div>-->
+<!--        <div class="form-group">-->
+<!--          <input-->
+<!--            type="password"-->
+<!--            id="password"-->
+<!--            class="form-control"-->
+<!--            ngModel-->
+<!--            name="Password"-->
+<!--            required-->
+<!--            [(ngModel)]="customer.password"-->
+<!--            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"-->
+<!--            placeholder="Password"-->
+<!--          />-->
+<!--          <small id="passwordMin" class="form-text text-muted">The password must consist of at least 1 number and one capital letter, and min. 8 characters.</small>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--          <button class="btn btn-primary" type="submit" [disabled]="!authForm.valid">-->
+<!--          REGISTER USER-->
+<!--          </button>-->
+<!--          <button class="btn btn-primary" (click)="gotoList()" type="button">-->
+<!--          LOG IN-->
+<!--          </button>-->
+<!--        </div>-->
+<!--      </form>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<!--<div [hidden]="!submitted" class="col-md-15 offset-md-3 mt-15">-->
+<!--  <div class="card" id="panel3">-->
+<!--    <div class="card-body" >-->
+<!--      <div>-->
+<!--        <h4>Rejestracja przebiegła pomyślnie.</h4>-->
+<!--        <br>-->
+<!--        <button class="btn-primary"  id="new" ><i class="fas fa-plus"></i>  Zaloguj się</button>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
